@@ -55,6 +55,7 @@
     justify-content: center;
     translate: -100%;
     transition: 0.3s all ease-in-out;
+    z-index: 3;
 }
 
 .menu-item {
