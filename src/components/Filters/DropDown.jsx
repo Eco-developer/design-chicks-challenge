@@ -1,10 +1,11 @@
+import { IoMdArrowDropdown } from "react-icons/io";
 import styles from "./Filters.module.css";
 
 export const DropDown = ({
     Icon,
     className,
+    head,
     text,
-    head
 }) => (
     <div className={`${styles.dropdown} ${className}`}>
         <Icon className={styles["dropdown-icon"]}/>
@@ -16,5 +17,6 @@ export const DropDown = ({
                 {text}
             </span>
         </span>
+        <IoMdArrowDropdown className={styles["arrow-icon"]}/>
     </div>
 )
