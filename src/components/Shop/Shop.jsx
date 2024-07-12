@@ -1,4 +1,5 @@
 import { Filters } from "../Filters/Filters";
+import { ShopGrid } from "../ShopGrid/ShopGrid";
 import styles from "./Shop.module.css";
 
 export const Shop = () => {
@@ -14,6 +15,7 @@ export const Shop = () => {
                         Condimentum consectetur
                     </div>
                     <Filters/>
+                    <ShopGrid/>
                 </div>
             </div>
         </div>

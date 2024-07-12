@@ -1,7 +1,7 @@
 import { IoMdArrowDropdown } from "react-icons/io";
-import styles from "./Filters.module.css";
+import styles from "./Dropdown.module.css";
 
-export const DropDown = ({
+export const Dropdown = ({
     Icon,
     className,
     head,

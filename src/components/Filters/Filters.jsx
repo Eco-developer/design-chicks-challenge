@@ -1,8 +1,7 @@
-import { GiBroadsword } from "react-icons/gi";
-import { DropDown } from "./DropDown";
+import { Dropdown } from "../Dropdown/Dropdown";
 import { IoMdArrowDropdown } from "react-icons/io";
 import { FiSearch } from "react-icons/fi";
-import { GiSwapBag, GiFeather } from "react-icons/gi";
+import { GiSwapBag, GiFeather, GiBroadsword } from "react-icons/gi";
 import styles from "./Filters.module.css";
 
 
@@ -26,16 +25,16 @@ export const Filters = () => {
                     <input placeholder="Search" className={styles["search-input"]}/>
                 </div>
                 <div className={styles["drop-down-container"]}>
-                    <DropDown
+                    <Dropdown
                         Icon={GiSwapBag}
                         className={styles["drop-down-left"]}
                         head="Price"
                         text="All"
                     />
-                    <DropDown
+                    <Dropdown
                         Icon={GiFeather}
                         className={styles["drop-down-right"]}
-                        head="Item type"
+                        head="Item Type"
                         text="All"
                     />
                 </div>
