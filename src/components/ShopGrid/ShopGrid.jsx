@@ -1,8 +1,9 @@
 import { Dropdown } from "../Dropdown/DropDown";
-import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
-import styles from "./ShopGrid.module.css";
 import { ShopCard } from "../ShopCard/ShopCard";
+import { Pagination } from "../Pagination/Pagination";
+import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";
 import { mockItems } from "@/const/mockItems";
+import styles from "./ShopGrid.module.css";
 
 export const ShopGrid = () => {
     return (
@@ -21,6 +22,7 @@ export const ShopGrid = () => {
             <div className={styles["shop-grid-content"]}>
                 {mockItems.map((item) => (
                     <ShopCard
+                        key={item.thumbnail}
                         thumbnail={item.thumbnail}
                         sale={item.sale}
                         discountedFrom={item.discountedFrom}
@@ -30,6 +32,7 @@ export const ShopGrid = () => {
                     />
                 ))}
             </div>
+            <Pagination/>
         </div>
     )
 }
