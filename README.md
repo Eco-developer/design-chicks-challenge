@@ -13,8 +13,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Key features: 
 
-Flexible Layout: Our app's layout adjusts dynamically to fit different screen sizes, ensuring that content remains readable and accessible on any device.
+Flexible Layout: This app's layout adjusts dynamically to fit different screen sizes, ensuring that content remains readable and accessible on any device.
 
-Scalable Images: Images within the app are optimized for various screen resolutions, preventing distortion and ensuring a crisp, high-quality appearance on all devices.
+Scalable Images: Images within the app are optimized for various screen resolutions, preventing distortion and ensuring high-quality appearance on all devices.
 
 Responsive Design: This app has a design that adapts to any device following the mobile-first responsive design architecture.
