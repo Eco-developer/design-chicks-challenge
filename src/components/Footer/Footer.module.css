@@ -148,7 +148,6 @@
     .footer-links-container {
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content:space-between;
     }
     .footer-logo-container, .footer-links {
         align-items: flex-start;
@@ -163,6 +162,9 @@
     }
     .footer-main {
         width: 70%;
+    }
+    .footer-links-container {
+        justify-content:space-between;
     }
 }
 @media screen and (min-width: 1500px){
