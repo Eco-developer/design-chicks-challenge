@@ -1,4 +1,4 @@
-import { Dropdown } from "../Dropdown/DropDown";
+import { Dropdown } from "../Dropdown/Dropdown";
 import { ShopCard } from "../ShopCard/ShopCard";
 import { Pagination } from "../Pagination/Pagination";
 import { HiOutlineAdjustmentsHorizontal } from "react-icons/hi2";

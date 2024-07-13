@@ -1,5 +1,5 @@
 "use client"
-import { Page } from "../Page/Page";
+import { PageButton } from "../PageButton/PageButton";
 import { pages } from "@/const/pages";
 import styles from "./Pagination.module.css";
 
@@ -8,7 +8,7 @@ export const Pagination = () => {
 		<div className={styles["pagination-container"]}>
  			<div className={styles["pagination"]}>
  				{pages.map((page) => (
- 					<Page
+ 					<PageButton
  						key={page}
  						page={page}
  						current={'1'}

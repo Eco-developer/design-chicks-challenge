@@ -6,9 +6,9 @@ import {
 	LEFT_PAGE,
 	RIGHT_PAGE,
 } from '@/const/pages';
-import styles from "./Page.module.css";
+import styles from "./PageButton.module.css";
 
-export const Page = ({page, current}) => {
+export const PageButton = ({page, current}) => {
 
 	if (page === LEFT_PAGE) {
 		return(
@@ -29,7 +29,6 @@ export const Page = ({page, current}) => {
 			</button>
 		)
 	}
-    console.log(page, current, current == page);
 	return (
 		<button 
             className={`${styles["page"]} ${current == page ? styles["active"] : ""}`}

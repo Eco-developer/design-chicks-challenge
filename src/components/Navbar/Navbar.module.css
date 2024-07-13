@@ -67,6 +67,7 @@
     padding: 30px;
     color: var(--text-white);
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .menu-item > p {
@@ -106,6 +107,9 @@
 }
 
 @media screen and (min-width: 1200px){
+    .menu-item > p {
+        font-size: 12px;
+    }
     .nav-menu-btn {
         display: none;
     }

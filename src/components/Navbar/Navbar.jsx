@@ -26,6 +26,7 @@ export const Navbar = () => {
                         src="/assets/chicks-logo-large.svg"
                         width={125}
                         height={30}
+                        alt="chicks-logo"
                         className={styles["nav-logo"]}
                     />
                 </div>
