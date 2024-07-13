@@ -16,7 +16,7 @@ export const Navbar = () => {
     return (
         <nav className={styles["nav-container"]}>
             <div className={styles["nav-main-content"]}>
-                <button className={styles["nav-menu-btn"]} onClick={toggleOpen}>
+                <button className={`${styles["nav-menu-btn"]} ${open ? styles["btn-active"] : ""}`} onClick={toggleOpen}>
                     {open ?
                         <IoClose className={styles["nav-menu-icon"]}/>
                         : <IoMenu className={styles["nav-menu-icon"]}/>}

@@ -72,7 +72,7 @@
 }
 .footer-email {
     color: var(--text-white);
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .footer-links {
@@ -83,12 +83,12 @@
 }
 
 .title {
-    font-size:  13px;
+    font-size:  14px;
     color: var(--text-white);
 }
 
 .text {
-    font-size:  11px;
+    font-size:  12px;
     color: var(--text-ligth-grey);
     cursor: pointer;
 }
@@ -115,7 +115,7 @@
 }
 
 .footer-rating-text {
-    font-size: 13px;
+    font-size: 14px;
     color: var(--text-ligth-grey);
 }
 
@@ -124,7 +124,7 @@
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
-    font-size: 14px;
+    font-size: 15px;
     color: var(--text-ligth-grey);
 }
 
