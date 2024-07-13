@@ -45,7 +45,7 @@ export const Footer = () => {
                         <div className={styles["footer-logo-container"]}>
                             <Image 
                                 src="/assets/chicks-logo-large.svg"
-                                width={170}
+                                width={200}
                                 height={50}
                                 alt="chicks-logo"
                                 className={styles["footer-logo"]}
